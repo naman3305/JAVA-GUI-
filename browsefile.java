@@ -2,13 +2,13 @@ import java.awt.event.*;
 import javax.swing.*;
 import java.io.*;
 
-class fr15 extends JFrame implements ActionListener        
+class browsefile extends JFrame implements ActionListener        
 {
     JTextField tf;
     JButton bt;
     JFileChooser jfc;
     
-    fr15()
+    browsefile()
     {
         setLayout(null);
 
@@ -49,6 +49,6 @@ class fr15 extends JFrame implements ActionListener
     
     public static void main(String[] args)
     {
-        fr15 obj = new fr15();
+        browsefile obj = new browsefile();
     }
 }
