@@ -1,14 +1,14 @@
 import java.awt.event.*;
 import javax.swing.*;
 
-class fr10 extends JFrame implements ActionListener
+class loginform extends JFrame implements ActionListener
 {
     JTextField tf;
     JPasswordField jp;
     JLabel lb1,lb2;
     JButton bt;
              
-    fr10()
+    loginform()
     {
         setLayout(null);        
        
@@ -61,6 +61,6 @@ class fr10 extends JFrame implements ActionListener
     
     public static void main(String[] args)
     {
-        fr10 obj = new fr10();
+        loginform obj = new loginform();
     }
 }
