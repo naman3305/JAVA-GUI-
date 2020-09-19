@@ -1,12 +1,12 @@
 import java.awt.event.*;
 import javax.swing.*;
 
-class fr12 extends JFrame implements ActionListener
+class frame extends JFrame implements ActionListener
 {
     JButton bt1,bt2,bt3;
     JLabel lb;
     
-    fr12()
+    frame()
     {
         setLayout(null);        
        
@@ -68,6 +68,6 @@ class fr12 extends JFrame implements ActionListener
     
     public static void main(String[] args)
     {
-        fr12 obj = new fr12();
+        frame obj = new frame();
     }
 }
