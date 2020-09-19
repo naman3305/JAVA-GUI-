@@ -1,14 +1,14 @@
 import java.awt.event.*;
 import javax.swing.*;
 
-class fr11 extends JFrame implements ActionListener
+class messagebox extends JFrame implements ActionListener
 {
     JTextField tf;
     JButton bt;
     JTextArea ta;
     JScrollPane jsp;
     
-    fr11()
+    messagebox()
     {
         setLayout(null);        
        
@@ -47,6 +47,6 @@ class fr11 extends JFrame implements ActionListener
     
     public static void main(String[] args)
     {
-        fr11 obj = new fr11();
+        messagebox obj = new messagebox();
     }
 }
