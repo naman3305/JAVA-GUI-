@@ -1,14 +1,14 @@
 import java.awt.event.*;
 import javax.swing.*;
 
-class fr9 extends JFrame implements ItemListener, ActionListener
+class list extends JFrame implements ItemListener, ActionListener
 {
     JComboBox cb;
     JLabel lb;
     JTextField tf;
     JButton bt;
     
-    fr9()
+    list()
     {
         setLayout(null);
         
@@ -67,6 +67,6 @@ class fr9 extends JFrame implements ItemListener, ActionListener
     
     public static void main(String[] args)
     {
-        fr9 obj = new fr9();
+        list obj = new list();
     }
 }
