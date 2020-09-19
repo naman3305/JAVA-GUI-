@@ -1,12 +1,12 @@
 import javax.swing.*;
 import javax.swing.event.*;
 
-class fr14 extends JFrame implements ChangeListener
+class db extends JFrame implements ChangeListener
 {
     JSlider js;
     JLabel lb;
         
-    fr14()
+    db()
     {
         setLayout(null);
 
@@ -42,6 +42,6 @@ class fr14 extends JFrame implements ChangeListener
     
     public static void main(String[] args)
     {
-        fr14 obj = new fr14();
+        db obj = new db();
     }
 }
