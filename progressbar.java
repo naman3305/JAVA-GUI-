@@ -1,11 +1,11 @@
 import java.awt.Color;
 import javax.swing.*;
 
-class fr13 extends JFrame
+class progressbar extends JFrame
 {
     JProgressBar pbar;
         
-    fr13()
+    progressbar()
     {
         setLayout(null);
 
@@ -46,6 +46,6 @@ class fr13 extends JFrame
     
     public static void main(String[] args)
     {
-        fr13 obj = new fr13();
+        progressbar obj = new progressbar();
     }
 }
