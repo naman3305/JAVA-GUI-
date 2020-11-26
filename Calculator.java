@@ -1,7 +1,8 @@
 import java.awt.event.*; 
 import javax.swing.*; 
 import java.awt.*; 
-public class Calculator extends JFrame implements ActionListener { 
+public class Calculator extends JFrame implements ActionListener
+{ 
     JTextField l; 
     String s0, s1, s2;
      JButton b0, b1, b2, b3, b4, b5, b6, b7, b8, b9, ba, bs, bd, bm, be, beq, beq1; 
@@ -92,19 +93,22 @@ public class Calculator extends JFrame implements ActionListener {
     { 
         String s = e.getActionCommand(); 
         
-        if ((s.charAt(0) >= '0' && s.charAt(0) <= '9') || s.charAt(0) == '.') { 
+        if ((s.charAt(0) >= '0' && s.charAt(0) <= '9') || s.charAt(0) == '.') 
+        { 
             if (!s1.equals("")) 
                 s2 = s2 + s; 
             else
                 s0 = s0 + s; 
             l.setText(s0 + s1 + s2); 
         } 
-        else if (s.charAt(0) == 'C') { 
+        else if (s.charAt(0) == 'C') 
+        { 
             s0 = s1 = s2 = ""; 
   
             l.setText(s0 + s1 + s2); 
         } 
-        else if (s.charAt(0) == '=') { 
+        else if (s.charAt(0) == '=') 
+        { 
   
             double te; 
   
@@ -123,10 +127,12 @@ public class Calculator extends JFrame implements ActionListener {
   
             s1 = s2 = ""; 
         } 
-        else { 
+        else
+        { 
             if (s1.equals("") || s2.equals("")) 
                 s1 = s; 
-            else { 
+            else
+            { 
                 double te; 
   
                 if (s1.equals("+")) 
