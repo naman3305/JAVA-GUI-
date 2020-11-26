@@ -1,6 +1,7 @@
 import java.util.*;
 
-public class DiameterBinaryTree {
+public class DiameterBinaryTree
+{
    public static void main(String args[])
    {
         Node root=new Node(1);
