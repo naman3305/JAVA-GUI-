@@ -23,8 +23,7 @@ class fr13 extends JFrame
         setTitle("Frame Demo 1");
         setLocation(100, 100);
         setSize(600, 400);
-        setVisible(true);
-        
+        setVisible(true);  
         // Logic to move ProgressBar
         for(int i=1;i<=100;i++)
         {
