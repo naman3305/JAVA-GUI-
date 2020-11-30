@@ -6,8 +6,7 @@ class fr11 extends JFrame implements ActionListener
     JTextField tf;
     JButton bt;
     JTextArea ta;
-    JScrollPane jsp;
-    
+    JScrollPane jsp;   
     fr11()
     {
         setLayout(null);        
@@ -35,7 +34,6 @@ class fr11 extends JFrame implements ActionListener
         setSize(600, 600);
         setVisible(true);
     }
-    
     @Override
     public void actionPerformed(ActionEvent e)
     {
