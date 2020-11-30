@@ -38,16 +38,12 @@ class fr10 extends JFrame implements ActionListener
         setLocation(100, 100);
         setSize(600, 400);
         setVisible(true);
-    }
-    
+    }    
     @Override
     public void actionPerformed(ActionEvent e)
     {
        String u  = tf.getText();
-       String p  = new String(jp.getPassword());          //jp.getText();
-       
-        //System.out.println(u);
-        //System.out.println(p);
+       String p  = new String(jp.getPassword());          
         
         if(u.equals("abc") && p.equals("123") )
         {
@@ -58,7 +54,6 @@ class fr10 extends JFrame implements ActionListener
             JOptionPane.showMessageDialog(this, "Login Failed !!!");
         }
     }    
-    
     public static void main(String[] args)
     {
         fr10 obj = new fr10();
