@@ -12,7 +12,8 @@ class Students implements Comparable<Students>
 	private String name;
 	private double marks;
 	
-	public Students(int roll, String name, double marks) {
+	public Students(int roll, String name, double marks)
+	{
 		//super();
 		this.roll = roll;
 		this.name = name;
@@ -20,38 +21,47 @@ class Students implements Comparable<Students>
 	}
 
 	@Override
-	public String toString() {
+	public String toString() 
+	{
 		return "Students [roll=" + roll + ", name=" + name + ", marks=" + marks
 				+ "]";
 	}
 
-	public int getRoll() {
+	public int getRoll()
+	{
 		return roll;
 	}
 
-	public String getName() {
+	public String getName() 
+	{
 		return name;
 	}
 
-	public double getMarks() {
+	public double getMarks() 
+	{
 		return marks;
 	}
 
-	public void setRoll(int roll) {
+	public void setRoll(int roll) 
+	{
 		this.roll = roll;
 	}
 
-	public void setName(String name) {
+	public void setName(String name)
+	{
 		this.name = name;
 	}
 
-	public void setMarks(double marks) {
+	public void setMarks(double marks) 
+	{
 		this.marks = marks;
 	}
 	
-	 public static Comparator<Students> StuNameComparator = new Comparator<Students>() {
+	 public static Comparator<Students> StuNameComparator = new Comparator<Students>()
+	 {
 
-			public int compare(Students s1, Students s2) {
+			public int compare(Students s1, Students s2) 
+			{
 				 String StudentName1 = s1.getName().toUpperCase();
 				   String StudentName2 = s2.getName().toUpperCase();
 			   //ascending order
@@ -60,9 +70,11 @@ class Students implements Comparable<Students>
 			   //descending order
 			   //return StudentName2.compareTo(StudentName1);
 		    }};
-		    public static Comparator<Students> StuRollno = new Comparator<Students>() {
+		    public static Comparator<Students> StuRollno = new Comparator<Students>() 
+		    {
 
-		    	public int compare(Students s1, Students s2) {
+		    	public int compare(Students s1, Students s2) 
+			{
 
 		    	   int rollno1 = s1.getRoll();
 		    	   int rollno2 = s2.getRoll();
@@ -73,9 +85,11 @@ class Students implements Comparable<Students>
 		    	   /For descending order/
 		    	   //rollno2-rollno1;
 		       }};
-		       public static Comparator<Students> Stumarks = new Comparator<Students>() {
+		       public static Comparator<Students> Stumarks = new Comparator<Students>()
+		       {
 
-			    	public int compare(Students s1, Students s2) {
+			    	public int compare(Students s1, Students s2)
+				{
 
 			    	  double marks1 = s1.getMarks();
 			    	   double marks2 = s2.getMarks();
