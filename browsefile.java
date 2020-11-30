@@ -29,8 +29,7 @@ class browsefile extends JFrame implements ActionListener
         setLocation(100, 100);
         setSize(800, 400);
         setVisible(true);     
-    }
-    
+    } 
     @Override
     public void actionPerformed(ActionEvent e)
     {
