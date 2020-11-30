@@ -35,8 +35,7 @@ class fr12 extends JFrame implements ActionListener
         setLocation(100, 100);
         setSize(600, 600);
         setVisible(true);
-    }
-    
+    } 
     @Override
     public void actionPerformed(ActionEvent e)
     {
